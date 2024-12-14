@@ -1,12 +1,31 @@
-{% extends "index.html" %}
-{% block title %}
-    Merchant-Login
-{% endblock %}
-{% block content %}
-   <div class="login-div"></div>
-   <form action="login">  
-    <input type="email" name="email" placeholder="email" required name="u_email">
-    <input type="password" name="pwd" placeholder="password" required name="u_pwd">
-    <button type="login">login</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Merchant-Login
+    </title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+<body>
+    <div class="nav-div">
+        <nav>
+            <ul>
+                <a href="/"><li>Home</li></a>
+                <a href="/m_login"><li>Merchant</li></a>
+                <a href="/u_login"><li>Users</li></a>
+                <a href="/m_login"><li>Management</li></a>
+                
+            </ul>
+        </nav>
+    </div>
+    
+ <div class="merchant-login">  <!--change class-name-->
+    <form action="login">  
+      <input type="email" placeholder="email" required name="u_email">
+      <input type="password" placeholder="password" required name="u_pwd">
+      <button type="submit">Login</button>
+      <button type="submit">Register</button>
     </form>
-    </div>
+  </div>
+</body>
+</html>

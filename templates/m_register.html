@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>
+       Merchant-Register
+    </title>
     <link rel="stylesheet" href="../static/css/style.css">
-    <title>Document</title>
-</head>
+    </head>
 <body>
-    <div class="reg-div"></div>
-        <form action="register">
-            <input type="text" name="name" placeholder="name" required name="u_name">
-            <input type="email" name="email" placeholder="email" required name="u_email">
-            <input type="number" name="num" placeholder="number" required name="u_num">
-            <input type="password" name="pwd" placeholder="password" required name="u_pwd">
-            <input type="number" name="percentage" placeholder="percentage" required name="u_percent">
-            <button type="submit">Submit</button>
+    <div class="nav-div">
+        <nav>
+            <ul>
+                <a href="/"><li>Home</li></a>
+                <a href="/m_login"><li>Merchant</li></a>
+                <a href="/u_login"><li>Users</li></a>
+                <a href="/m_login"><li>Management</li></a>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="merchant-reg"><!--change class-name-->
+        <form action="" method="post">
+            <input type="text" placeholder="name" required name="u_name">
+            <input type="email" placeholder="email" required name="u_email">
+            <input type="number" placeholder="phone_num" required name="phone_num">
+            <input type="password" placeholder="password" required name="u_pwd">
+            <input type="number" placeholder="percentage" required name="u_percent">
+            <button type="submit">Register</button>
         </form>
     </div>
-    
 </body>
 </html>

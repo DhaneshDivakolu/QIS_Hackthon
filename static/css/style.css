@@ -1,0 +1,114 @@
+/*INDEX-HTML*/
+
+.nav-div{
+    float: left;
+    width: 100%;
+    background-color: rgb(1, 1, 15);
+}
+
+ .nav-div li{
+    float: left;
+    width: 20%;
+    display: inline;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0% 0% 2% 2%;
+    list-style: none;
+}
+.nav-div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.main-div{
+    float: left;
+    width: 100%;
+    background: url("../images/payment_image.jpg");
+    background-size: 100% 100%;
+    height: 590px;
+}
+.main-div h1{
+    float: left;
+    width: 50%;
+    margin: 10% 0% 0% 25%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer-div{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(1, 1, 15);
+    color: aliceblue;
+}
+
+  /*ITEMS-HTML */
+
+.items-div{
+    float: left;
+    width: 80%;
+    margin: 10% 0% 0% 10%;
+   /* border: 2px solid black;*/
+}
+
+.items-div input{
+    float: left;
+    width: 80%;
+    margin: 1% 0% 1% 10%;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+}
+
+.items-div button{
+    float: left;
+    width: 40%;
+    margin: 0% 0% 1% 30%;
+}
+
+
+/* USER-LOGIN*/
+.user-login, .merchant-login{
+    float: left;
+    width: 50%;
+    margin: 10% 0% 0% 0%;
+}
+.user-login input, .merchant-login input{
+    float: left;
+    width: 80%;
+    margin: 0% 0% 1% 50%;
+    padding: 1% 0% 1% 0%;
+    font-size: 15px;
+}
+.user-login button, .merchant-login button{
+    float: left;
+    width: 20%;
+    border: 1px solid black; 
+    margin: 2% 0% 0% 80%;
+    font-size: 20px;
+}
+
+
+/* USER , MERCHANT -REGISTER */
+
+.user-register, .merchant-reg{
+    float: left;
+    width: 80%;
+    margin: 5% 0% 0% 10%;
+    border: 2px solid black;
+}
+
+.user-register input, .merchant-reg input{
+    float: left;
+    width: 80%;
+    margin: 1% 0% 1% 10%;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+}
+
+.merchant-reg button, .user-register button{
+    float: left;
+    width: 40%;
+    margin: 0% 0% 1% 30%;
+}
