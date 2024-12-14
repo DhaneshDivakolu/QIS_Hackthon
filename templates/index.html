@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        {% block title %}
+            PayLaterService
+        {% endblock title %}
+    </title>
+</head>
+<body>
+    <div class="nav-div">
+        <nav>
+            <ul>
+                <a href="/"><li>Home</li></a>
+                <a href="/"><li>Merchant</li></a>
+                <a href="/"><li>Users</li></a>
+                <a href="/"><li>Management</li></a>
+                <a href="/"><li></li></a>
+                <a href="/"><li></li></a>
+                <a href="/"><li></li></a>
+                <a href="/"><li></li></a>
+            </ul>
+        </nav>
+    </div>
+
+    {% block content %}
+        <div class="main-div">
+            <h1>Pay Later Service</h1>
+        </div>
+    {% endblock content %}
+
+    <div class="footer-div">
+        <p>&copy; 2024||All Rights are reserved || Developed by Dhanesh & team</p>
+    </div>
+
+    
+</body>
+</html>
