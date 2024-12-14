@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>View Users</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="view-users">
+        <table border="2">
+            <thead>
+                <tr>
+                    <td>UserID</td>
+                    <td>User Name</td>
+                    <td>User Email</td>
+                    <td>Phone</td>
+                    <td>Address</td>
+                    <td>Credit Limit</td>
+                    <td>Due</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for users in output %}
+                    <tr>
+                        {% for row in users %}
+                            <td>{{row}}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
